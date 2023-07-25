@@ -1,6 +1,5 @@
 {
-
-	"app_id": "dataapp-pYRNxKmQ",
-  "app_name": "New App",
+  "app_id": "{dataapp-pYRNxKmQ}",
+  "app_name": "data-service-example",
   "app_type": "dataapi"
 }
