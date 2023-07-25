@@ -1,9 +1,26 @@
 [
   {
-    "name": "/avg_price_per_year",
+    "name": "/total_order_per_brand",
     "description": "",
     "method": "GET",
-    "endpoint": "/avg_price_per_year",
+    "endpoint": "/total_order_per_brand",
+    "data_source": {
+      "cluster_id": 1379661944646257214
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-total_order_per_brand.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/total_order_per_brand",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/total_order_per_brand",
     "data_source": {
       "cluster_id": 1379661944646257214
     },
